@@ -1,0 +1,298 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    text-align: end;
+    padding-right: 200px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.banner-main {
+    background-image: url('/images/banner/banner2.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-header {
+    font-weight: 700;
+    font-size: 65px;
+    margin: 0px;
+    color: #151414;
+    font-family: 'Work Sans';
+}
+
+.banner-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: 0px solid;
+    padding: 20px 26px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.failure-section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.person-image {
+    height: 80vh;
+}
+
+.failure-content {
+    width: 35%;
+}
+
+.photo-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 70px;
+}
+
+.title-section {
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.previous-desc {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-right: 100px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+.previous {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-right: 100px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+.title-section2 {
+    width: 35%;
+    align-items: center;
+}
+
+.img1 {
+    width: 45%;
+    background-image: url('/images/person.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pr-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr-list img {
+    height: 24px;
+    width: 24px;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+.pr-list-items {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: #444343;
+    padding: 0px;
+}
+
+.my-plan-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+
+
+.plan-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-content-item {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan-content-item-img {
+    height: 80px;
+    width: 80px;
+}
+
+.plan-content-item-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-content-item-sub {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0px;
+    text-align: center;
+    color: #737272;
+}
+
+.bottom-banner-content {
+    height: 260px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+
+.bottom-banner {
+    height: 260px;
+    width: 70%;
+    position: absolute;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+
+.bottom-banner-parent {
+    background-image: url('/images/watch.png');
+    height: 260px;
+    background-size: cover;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 8px;
+}
+
+.bottom-banner-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: start;
+    padding-left: 50px;
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.btn-call-now {
+    border: 0px solid;
+    padding: 16px 26px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #F15B22;
+    margin-left: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: start;
+}
+
+.footer {
+    background-color: #151414;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-footer-content {
+    width: 40%;
+    height: 60vh;
+}
+
+.left-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.right-footer-content {
+    width: 40%;
+    height: 60vh;
+}
+
+div {
+    border: red solid 1px;
+}
